@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login and Registration Form</title>
+<style>
+    body { font-family: Arial, sans-serif; }
+    .container { display: flex; justify-content: space-around; padding: 20px; }
+    .form-section { background-color: #f2f2f2; padding: 20px; border-radius: 5px; width: 40%; }
+    input[type="text"], input[type="password"], input[type="email"] { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+    button { width: 100%; background-color: #4CAF50; color: white; padding: 15px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { opacity: 0.8; }
+    a { display: block; margin-top: 10px; font-size: 0.9em; color: blue; }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-section">
+        <h2>Login</h2>
+        <form>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+            <a href="#">Forgot password?</a>
+        </form>
+    </div>
+    <div class="form-section">
+        <h2>Sign Up</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
